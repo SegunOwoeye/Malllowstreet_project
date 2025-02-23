@@ -1,0 +1,13 @@
+Activity Completed,Approx Dur (mins),Category
+Reading up on LGPS pool,30,Researching context/background/terminology
+Brainstorming and researching methodologies/code,120,Brainstorming/researching methodologies/code
+"Researching context, background, and terminology",120,Researching context/background/terminology
+Developed Border to Coast web scraping module,60,Connecting to/importing/ingesting the data
+Developed Brunel Pension Partnership web scraping module,60,Connecting to/importing/ingesting the data
+Implemented file filtering mechanism for data cleaning,60,Organising/cleaning the data
+Explored the data to understand structure and key metrics,120,Exploring the data
+"Data analysis work (Friday evening, Saturday evening, Sunday afternoon)",720,Data analysis
+"Created data visualisations (charts, plots)",180,Visualisations
+Created AI-powered data explanation module,60,Writing up key findings
+Integrated all modules into the main program,30,Developing code/integrating components
+Developed setup script for easy deployment,90,Project setup/configuration
