@@ -63,7 +63,7 @@ class LGPSDataAnalyzer:
         )
         return response.text
 
-    def save_write_up(self, write_up: str, output_filename: str = 'LGPS_Insights_WriteUp.docx') -> None:
+    def save_write_up(self, write_up: str, output_filename: str = 'LGPS_Insights_WriteUp_new.docx') -> None:
         output_doc = WordDocument()
         output_doc.add_heading('LGPS Data Analysis Insights', level=1)
         output_doc.add_paragraph(write_up)
@@ -82,8 +82,8 @@ class LGPSDataAnalyzer:
 # Run Program 
 def run(): 
     api_key = "AIzaSyAe3lWLohtskJJ9s5JYMB4y-H4-OjRYKm0"
-    folder1_path = 'Data/processed_data/bordertocoast_data/documents'
-    folder2_path = 'Data/processed_data/brunel_data/documents'
+    folder1_path = 'Data/processed_data/bordertocoast_data/reports/Output'
+    folder2_path = 'Data/processed_data/brunel_data/reports/Output'
     images_output_dir = 'Data/processed_data/extracted_images'
 
     prompt_template = '''
